@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Stupid Vids</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="main-title">Stupid Vids</h1>
+    <div class="video-container">
+      <video controls>
+        <source src="https://youtu.be/gQtWzUid2dY" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <button class="next-button" onclick="nextVideo()">Next Video</button>
+  </div>
+  
+  <script>
+    function nextVideo() {
+      // Replace with the actual URL of the next video
+      window.location.href = 'next_video_url.html';
+    }
+  </script>
+</body>
+
+</html>
